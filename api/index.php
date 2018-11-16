@@ -13,7 +13,7 @@ function CallAPI($path,$data=[])
     curl_setopt($curl, CURLOPT_URL, $url);
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
 	curl_setopt($curl, CURLOPT_HTTPHEADER, [
-	    'X-CMC_PRO_API_KEY: 85d83bf3-2684-4c63-a962-bc601b1a4c6e'
+	    'YOUR API KEY'
 	]);
     $result = curl_exec($curl);
 
