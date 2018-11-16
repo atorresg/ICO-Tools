@@ -9,23 +9,14 @@
      <link rel="stylesheet" media="all" href="./css/tempusdominus-bootstrap-4.min.css" />
      <link rel="stylesheet" media="all" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
      <link rel="stylesheet" media="all" href="./css/style.css" />
-     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-27941005-3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-27941005-3');
-</script>
 
   </head>
   <body>
     <div class="container">
-      <h2>ICO Tools</h2>
+      <h2>ICO Tools <small>v1.0b</small></h2>
       <div class="row mb-5 mt-3">
         <div class="col">
-          <label for="usd">ETH value <span class="badge badge-info" data-toggle="tooltip" data-placement="bottom" title="Valor por defecto es el actual según CoinMarketCap">?</span>:</label> 
+          <label for="usd">ETH value <span class="badge badge-info" data-toggle="tooltip" data-placement="bottom" title="Present USD value ref:CoinMarketCap">?</span>:</label> 
           <div class="input-group mb-2">
             <div class="input-group-prepend">
               <button class="btn btn-sm btn-success" onclick="App.resetUSD()">Actual value</button>
@@ -38,7 +29,7 @@
         </div>
         
         <div class="col">
-          <label for="symbol">Token Symbol <span class="badge badge-info" data-toggle="tooltip" data-placement="bottom" title="Valor por defecto es el actual según CoinMarketCap">?</span>:</label>
+          <label for="symbol">Token Symbol <span class="badge badge-info" data-toggle="tooltip" data-placement="bottom" title="3-4 letters representing the Token">?</span>:</label>
            <input type="text" id="symbol" class="form-control form-control-sm" value="XXX">
         </div>
         <div class="col"></div>
@@ -73,11 +64,11 @@
           <input type="text" id="rate" class="form-control form-control-sm" placeholder="ej.: 1" value="1">
         </div>
         <div class="col">
-          <label for="ntok">Number of <span class="token_name">TOKEN</span> to mint:</label>
+          <label for="ntok" >Number of <span class="token_name">TOKEN</span> to mint:</label>
           <input type="text" id="ntok" class="form-control form-control-sm" placeholder="ej.: 1000000000" value="1000000000">
         </div>
         <div class="col">
-          <label for="supply">Initial supply:</label>
+          <label for="supply">Initial supply <span class="badge badge-info" data-toggle="tooltip" data-placement="bottom" title="It is equal to the number of tokens minted multiplied by 10 raised to the number of decimals">?</span>:</label>
           <input type="text" id="supply" class="form-control form-control-sm" value="0">
         </div>
       </div>
@@ -154,7 +145,7 @@
         </div>
         
       </div>
-      <h3 class="mt-5">UNIX time converter</h3>
+      <h3 class="mt-5">UNIX time converter <span class="badge badge-info" data-toggle="tooltip" data-placement="bottom" title="Usefool for timed smart contracts">?</span></h3>
       <div class="row">
         <div class="col">
            <div class="form-group">
