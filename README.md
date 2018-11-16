@@ -4,6 +4,7 @@ Estimate some parameters for **token** and **crowdsale** contracts are frequentl
 
 Many inputs have a [ ? ] symbol describing functionalities on mouse hover.
 
+A demo can be found here: http://ico.atorresg.com/
 
 ## TO-DO
 
